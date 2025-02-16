@@ -28,7 +28,7 @@ export default function Home() {
         </div>
         <div className="ml-12 space-x-4">
           <Button
-            text="Incio"
+            text="Inicio"
             bgColor="#FFFFFF"
           />
           <Button
@@ -42,12 +42,14 @@ export default function Home() {
             bgColor="#FFFFFF"
             border="border border-gray-200"
             hover="hover:bg-gray-100 hover:text-green-700"
+            redirectTo="/login"
           />
           <Button
             text="Registrate"
             bgColor="bg-green-400"
             border="border border-gray-200"
             hover="hover:bg-gray-100 hover:text-green-700"
+            redirectTo="/register"
           />
         </div>
       </header>
