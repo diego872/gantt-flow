@@ -31,12 +31,14 @@ export default function Home() {
             text="Inicio"
             bgColor="#FFFFFF"
           />
+        </div>
+        <div className="ml-12 space-x-4">
           <Button
             text="¿Por qué GanttFlow?"
             bgColor="#FFFFFF"
           />
         </div>
-        <div className="ml-auto space-x-4">
+        <div className="ml-auto">
           <Button
             text="Iniciar sesión"
             bgColor="#FFFFFF"
@@ -44,6 +46,8 @@ export default function Home() {
             hover="hover:bg-gray-100 hover:text-green-700"
             redirectTo="/login"
           />
+        </div>
+        <div className="ml-4">
           <Button
             text="Registrate"
             bgColor="bg-green-400"
@@ -52,9 +56,9 @@ export default function Home() {
             redirectTo="/register"
           />
         </div>
-      </header>
+      </header >
       {/* Contenido principal */}
-      <main className="flex flex-col md:flex-row mt-32 space-y-8 md:space-y-0 md:space-x-10 items-center md:items-start">
+      < main className="flex flex-col md:flex-row mt-32 space-y-8 md:space-y-0 md:space-x-10 items-center md:items-start" >
         <div className="text-center">
           <p className="font-bold text-center text-[100px] ml-4">
             Gantt
@@ -74,12 +78,12 @@ export default function Home() {
         <Image
           className="dark:invert"
           src="diagrama.svg"
-          alt="Next.js logo"
+          alt="Diagrama de Gantt"
           width={840}
           height={450}
           priority
         />
-      </main>
+      </main >
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center mt-48">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
@@ -127,6 +131,6 @@ export default function Home() {
           Go to nextjs.org →
         </a>
       </footer>
-    </div>
+    </div >
   );
 }
