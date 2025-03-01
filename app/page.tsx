@@ -58,7 +58,7 @@ export default function Home() {
         </div>
       </header >
       {/* Contenido principal */}
-      < main className="flex flex-col md:flex-row mt-32 space-y-8 md:space-y-0 md:space-x-10 items-center md:items-start" >
+      <main className="flex flex-col md:flex-row mt-32 space-y-8 md:space-y-0 md:space-x-10 items-center md:items-start" >
         <div className="text-center">
           <p className="font-bold text-center text-[100px] ml-4">
             Gantt
